@@ -16,7 +16,7 @@ icondata = "0.3"
 
 [dependencies]
 icondata_core = "0.1"
-leptos = "0.6"
+leptos = { git = "https://github.com/agraboso/leptos", branch = "intoclass" }
 
 # For -Zminimal-versions
 [target.'cfg(any())'.dependencies]
